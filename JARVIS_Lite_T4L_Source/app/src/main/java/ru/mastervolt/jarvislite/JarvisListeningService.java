@@ -10,6 +10,7 @@ import android.speech.tts.TextToSpeech;
 import org.json.JSONObject;
 import org.vosk.*;
 import org.vosk.android.SpeechService;
+import org.vosk.RecognitionListener;
 import java.io.*;
 import java.util.Locale;
 
