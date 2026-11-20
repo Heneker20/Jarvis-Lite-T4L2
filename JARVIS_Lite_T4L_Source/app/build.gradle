@@ -1,0 +1,9 @@
+plugins { id 'com.android.application' }
+android {
+ namespace 'ru.mastervolt.jarvislite'
+ compileSdk 35
+ defaultConfig { applicationId 'ru.mastervolt.jarvislite'; minSdk 29; targetSdk 29; versionCode 3; versionName '1.2-background-preview' }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+ aaptOptions { noCompress 'mdl', 'fst', 'conf', 'dat', 'int', 'carpa' }
+}
+dependencies { implementation 'com.alphacephei:vosk-android:0.3.47' }
