@@ -19,7 +19,7 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import org.json.JSONObject;
 import org.vosk.Model;
-import org.vosk.RecognitionListener;
+import org.vosk.android.RecognitionListener;
 import org.vosk.Recognizer;
 import org.vosk.android.SpeechService;
 import java.io.File;
